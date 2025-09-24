@@ -8,18 +8,23 @@
 
     background-color: rgb(217, 235, 251);
     padding-top:100px ;
+    /* height: 100vh; */
+    width: 100%;
+    padding-bottom: 90px;
 }
 
 body{
 
      font-family: arial;
+     box-sizing: border-box;
 }
 
 .card{
 
     width: 70%;
    background-color: white;
-   height: 70vh;
+   border-radius: 0px 30px 30px 0px;
+   /* height: 70vh; */
    margin: auto;
    display: flex;
   
@@ -31,7 +36,8 @@ body{
     flex: 1;
     /* background-color: blue; */
      border-radius: 20px 0px 0px 20px;
-     padding: 30px;
+   
+     padding-left: 30px;
    
     
      
@@ -66,13 +72,16 @@ label{
 
      font-size: 13px;
     color: rgba(2, 6, 28, 0.629);
-      /* padding: 40px; */
+    
     
 }
 
 .box{
     display: flex;
     width: 300px;
+     border: 1.2px solid rgb(215, 230, 8);
+  border-radius: 4px;
+  height: 35px;
    
   
 
@@ -86,20 +95,20 @@ label{
 
 }
 
-img{
+.img img{
 
     width: 23px;
    height: 23px;
  
 }
 
-#input{
+/* #input{
 
   width: 300px;
   height: 35px;
   border: 1.2px solid rgb(215, 230, 8);
   border-radius: 4px;
-}
+} */
 
 .second{
 
@@ -235,9 +244,24 @@ img{
     height: 40px;
     background-color: rgb(189, 202, 3) ;
     border-radius: 30px;
-    margin: 20px;
+    margin: 40px;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    
+}
+.button img{
+
+    padding-left: 30px;
+
 }
 
+.button p{
+
+  font-size: 14px;
+    color: rgba(2, 8, 46, 0.788);
+    font-weight: bold;
+}
 
 
 
@@ -249,6 +273,246 @@ img{
 .second_section{
 
     flex: 1;
-    /* background-color: black; */
+    background-color: #123041;
      border-radius: 0px 30px 30px 50px;
+    
 }
+
+.second_section img{
+
+    width: 120px;
+    height: 120px;
+   margin-left: 130px;
+   margin-top: 120px;
+}
+
+.second_section h3{
+
+text-align: center;
+color: rgb(208, 206, 206);
+}
+
+.second_section h6{
+
+text-align: center;
+color: rgba(219, 234, 247, 0.539);
+padding: 10px;
+}
+
+
+.second_section h1{
+
+color: rgb(241, 238, 238);
+font-size: 18px;
+padding: 20px;
+}
+
+
+.second_section p{
+
+    font-size: 13px;
+    color: rgba(219, 234, 247, 0.539);
+    padding: 7px;
+
+}
+
+.bucket{
+
+    width: 280px;
+    height: 180px;
+   
+    border-top:5px solid rgb(255, 242, 0);
+    background-color:  #0a202d;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: none;
+    
+    
+}
+.cup{
+
+    border-bottom: 1px solid grey;
+    display: none;
+}
+
+.bucket p{
+
+   padding-top: 20px;
+   padding-left: 20px;
+   display: none;
+}
+
+.bucket h2{
+
+    color: rgb(189, 202, 3);
+   padding-left: 20px;
+   height: 40px;
+   display: none;
+}
+
+.bucket h4{
+
+    color: rgb(234, 231, 231);
+    padding: 0px 20px 0px 20px;
+}
+
+
+
+@media screen and (max-width:425px){
+    .main{
+
+        padding-bottom: 0px;
+    }
+    .card{
+
+        flex-direction: column;
+         border-radius: 0px 0px 0px 0px;
+         width: 80%;
+         padding: 0;
+    }
+
+    .first_section{
+
+        padding-left: 0px;
+    }
+
+
+.first{
+
+    display: block;
+   padding-left: 20;
+
+}
+
+.first p{
+
+    padding-top: 10px;
+}
+
+label{
+
+    padding-left: 20px;
+}
+
+.box{
+    display: flex;
+    width: 280px;
+     border: 1.2px solid rgba(3, 61, 111, 0.43);
+  border-radius: 4px;
+  height: 35px;
+  margin-left: 20px;
+   
+  
+
+}
+
+.img{
+
+ background-color: rgb(219, 236, 251);
+ align-items: center;
+ display: flex;
+ padding: 10px;
+
+}
+
+.img img{
+
+    width: 23px;
+   height: 23px;
+ 
+}
+
+.second{
+
+    display: block;
+   gap: 20px;
+   padding: 10px;
+}
+
+.one p{
+
+    padding-left: 10px;
+}
+
+
+ .box1{
+
+    width: 280px;
+    height: 35px;
+    border: 1px solid rgba(6, 2, 50, 0.497);
+    border-radius: 5px;
+     margin: 10px;
+     display: flex;
+     justify-content: space-between;
+
+   
+}
+
+
+.years1 p{
+
+     background-color: rgb(214, 233, 251);
+    border-radius: 0px 5px 5px 0px;
+      width: 40px;
+      height: 25px;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.button{
+
+    margin: 40px;
+}
+
+.second_section img,h3,h6{
+
+    display: none;
+}
+
+.second_section{
+
+     border-radius: 0px 0px 0px 0px;
+     padding-bottom: 30px;
+}
+
+.bucket{
+
+    display: block;
+}
+
+.cup{
+
+    display: block;
+}
+
+.bucket p{
+
+    display: block;
+}
+
+.bucket h2{
+
+    display: block;
+}
+
+.bucket h4{
+
+    display: block;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
