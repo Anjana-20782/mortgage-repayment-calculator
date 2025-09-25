@@ -93,13 +93,14 @@ label{
  background-color: rgb(215, 230, 8);
  align-items: center;
  display: flex;
+ padding: 10px;
 
 }
 
 .img img{
 
-    width: 23px;
-   height: 23px;
+    width: 18px;
+   height: 18px;
  
 }
 
@@ -115,7 +116,8 @@ label{
 
     display: flex;
    gap: 20px;
-   padding: 10px;
+   /* padding: 10px; */
+    padding-top: 10px;
 }
 
 .one{
@@ -150,11 +152,13 @@ label{
 
 .box1{
 
-    width: 120px;
+    width: 140px;
     height: 30px;
     border: 1px solid rgba(6, 2, 50, 0.497);
     border-radius: 5px;
-     margin: 10px;
+     /* margin: 10px; */
+     margin-top: 10px;
+     margin-bottom: 10px;
      display: flex;
      justify-content: space-between;
 
@@ -182,7 +186,7 @@ label{
       height: 20px;
       display: flex;
      justify-content: center;
-     align-items: center;
+     /* align-items: center; */
 }
 
 .years p{
@@ -202,7 +206,9 @@ label{
     height: 20px;
     border: 1.6px solid rgb(238, 255, 3);
     background-color: rgb(249, 252, 207);
-    margin: 10px;
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
     display: flex;
     gap: 10px;
@@ -224,7 +230,9 @@ label{
     height: 20px;
      border: 1.6px solid rgb(181, 181, 181);
       border-radius: 5px;
-       margin: 10px;
+       /* margin: 10px; */
+       margin-top: 10px;
+    margin-bottom: 10px;
        display: flex;
     gap: 10px;
     align-items: center;
@@ -241,11 +249,12 @@ label{
 
 .button{
 
-    width: 230px;
-    height: 40px;
+    width: 290px;
+    height: 49px;
     background-color: rgb(189, 202, 3) ;
     border-radius: 30px;
-    margin: 40px;
+    /* margin: 40px; */
+    margin-top: 30px;
     display: flex;
     gap: 9px;
     align-items: center;
@@ -253,7 +262,7 @@ label{
 }
 .button img{
 
-    padding-left: 30px;
+    padding-left: 60px;
 
 }
 
@@ -307,14 +316,14 @@ color: rgb(241, 238, 238);
 font-size: 18px;
 padding: 20px;
 
-/* display: none; */
 }
 
 
 .second_section p{
 
-    font-size: 12px;
-    color: rgba(219, 234, 247, 0.539);
+    font-size: 15px;
+    color: rgba(231, 241, 250, 0.539);
+    /* padding-left: 20px; */
     padding: 10px;
     /* display: none; */
 
@@ -337,21 +346,24 @@ padding: 20px;
 .cup{
 
     border-bottom: 1px solid grey;
+    width: 250px;
+    margin: auto;
     /* display: none; */
 }
 
-.bucket p{
+.cup p{
 
    padding-top: 20px;
-   padding-left: 20px;
-   /* display: none; */
+   padding-left: 0;
+   
 }
 
 .bucket h2{
 
-    color: rgb(189, 202, 3);
-   padding-left: 20px;
-   height: 40px;
+    color: rgb(204, 218, 3);
+   /* padding-left: 20px; */
+   height: 45px;
+   font-size: 25px;
    /* display: none; */
 }
 
@@ -359,6 +371,7 @@ padding: 20px;
 
     color: rgb(234, 231, 231);
     padding: 0px 20px 0px 20px;
+    font-size: 19px;
 }
 
 @media screen and (max-width:1440px) {
@@ -435,6 +448,17 @@ padding: 20px;
         height: 30vh;
     }
 
+    .cup {
+
+        width: 98%;
+      
+    }
+
+    .bucket p{
+
+        /* padding-left: 20px; */
+    }
+
    
 }
 
@@ -495,7 +519,7 @@ padding: 20px;
 
 .box1{
 
-    width: 240px;
+    width: 265px;
     height: 30px;
     
 }
@@ -621,18 +645,95 @@ padding: 20px;
     }
 }
 
+@media screen and (min-width:541px) and (max-width:675px) {
+    
+    .box{
+
+        width: 500px;
+    }
+
+    .box1{
+
+        width: 235px;
+    }
+
+    .repayment{
+
+        width: 500px;
+    }
+
+    .interest{
+
+        width: 500px;
+    }
+
+    .button{
+
+        width: 500px;
+    }
+
+    .button img{
+
+      padding-left: 150px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    
+    .main{
+
+       padding: 0; 
+    }
+
+    .card{
+
+        width: 100%;
+    }
+
+    .box{
+
+        width: 300px;
+    }
+    .box1{
+
+        width: 120px;
+    }
+
+    .repayment{
+
+        width: 300px;
+    }
+
+    .interest{
+
+        width: 300px;
+    }
+
+    .button{
+
+        width: 300px;
+    }
+
+    .button img{
+
+        padding-left: 70px;
+    }
+}
+
+
 
 
 @media screen and (max-width:425px){
     .main{
 
         padding-bottom: 0px;
+        
     }
     .card{
 
         flex-direction: column;
          border-radius: 0px 0px 0px 0px;
-         width: 80%;
+         width: 100%;
          padding: 0;
     }
 
@@ -667,7 +768,7 @@ label{
 
 .box{
     display: flex;
-    width: 280px;
+    width: 290px;
      border: 1.2px solid rgba(3, 61, 111, 0.43);
   border-radius: 4px;
   height: 35px;
@@ -708,7 +809,7 @@ label{
 
  .box1{
 
-    width: 280px;
+    width: 290px;
     height: 35px;
     border: 1px solid rgba(6, 2, 50, 0.497);
     border-radius: 5px;
@@ -733,14 +834,15 @@ label{
 
 .button{
 
-    margin: 40px;
-    width: 230px;
+   margin-top: 40px;
+   margin-left: 10px;
+    width: 290px;
   
 }
 
 .button img{
 
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 .second_section img,h3,h6{
@@ -791,12 +893,12 @@ label{
 
 .repayment{
 
-   width: 280px;
+   width: 290px;
 }
 
 .interest{
 
-    width: 280px;
+    width: 290px;
 }
 
 
@@ -804,49 +906,6 @@ label{
 
 
 
-
-
-@media screen and (max-width:430px) {
-    
-    .main{
-
-       padding: 0; 
-    }
-
-    .card{
-
-        width: 100%;
-    }
-
-    .box{
-
-        width: 300px;
-    }
-    .box1{
-
-        width: 120px;
-    }
-
-    .repayment{
-
-        width: 300px;
-    }
-
-    .interest{
-
-        width: 300px;
-    }
-
-    .button{
-
-        width: 300px;
-    }
-
-    .button img{
-
-        padding-left: 70px;
-    }
-}
 
 @media screen and (max-width:414px){
     
@@ -865,6 +924,15 @@ label{
         padding: 30px;
     }
 }
+
+@media screen and (min-width:413px) and (max-width:424px) {
+    
+    .box1{
+
+        width: 300px;
+    }
+}
+
 
 @media screen and (max-width:412px) {
     
@@ -978,6 +1046,11 @@ label{
 
         width: 220px;
         margin-left: 10px;
+    }
+
+    .button p{
+
+        font-size: 12px;
     }
 }
 
