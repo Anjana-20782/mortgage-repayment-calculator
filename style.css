@@ -361,6 +361,23 @@ padding: 20px;
     padding: 0px 20px 0px 20px;
 }
 
+@media screen and (max-width:1440px) {
+    
+    body{
+
+    background-color: rgb(217, 235, 251);
+       
+    }
+}
+
+@media screen and (max-width:1280px){
+    
+    body{
+    background-color: rgb(217, 235, 251);
+
+    }
+}
+
 
 
 
@@ -380,6 +397,7 @@ padding: 20px;
     .second_section{
 
          border-radius: 0px;
+         padding-bottom: 380px;
     }
 
     .box{
@@ -410,6 +428,11 @@ padding: 20px;
     .button img{
 
         padding-left: 200px;
+    }
+
+    .bucket{
+        width: 80%;
+        height: 30vh;
     }
 
    
@@ -843,6 +866,14 @@ label{
     }
 }
 
+@media screen and (max-width:412px) {
+    
+    .box1{
+
+        width: 300px;
+    }
+}
+
 @media  screen and (max-width:375px) {
     
     .main{
@@ -862,7 +893,57 @@ label{
         height: 70px;
     }
 
+   .box{
+
+    width: 280px;
+   }
+
+   .box1{
+
+    width: 280px;
+   }
+
+   .repayment{
+
+    width:280px;
+   }
     
+   .interest{
+
+    width: 280px;
+   }
+
+   .button{
+
+    width: 280px;
+    margin: 20px;
+   }
+
+   .button img{
+
+    padding-left: 50px;
+   }
+}
+
+@media screen and (max-width:344px) {
+    .box{
+        width: 250px;
+    }
+    .box1{
+        width: 250px;
+    }
+    .repayment{
+
+    width:250px;
+   }
+    
+   .interest{
+
+    width: 250px;
+   }
+   .button{
+    width: 250px;
+   }
 }
 
 
